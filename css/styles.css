@@ -1,4 +1,3 @@
-
 /* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
@@ -8,35 +7,111 @@ body, h1, h2, p {
 /* Define some general styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url(homebg.jpg);
-    background-repeat: no-repeat;
-    background-size:100%; 
+    background-color: #f0f0f0;
+    padding: 0 100px 0 100px;
 }
 
 /* Header styles */
-header{
-    margin:15% auto;
-    
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-image:url("/images/homebg.jpg");
 }
 
 header h1 {
     font-size: 36px;
-    text-align:center;
 }
 
 header p {
     font-size: 18px;
-    text-align:center;
+}
+
+header img {
+    width:200px;
+    border-radius:50%;
 }
 
 /* Main content container */
 .container {
-    
-    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
+/* Personal information section */
+.personal-info {
+    margin-bottom: 30px;
+}
+
+.personal-info h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Work experience section */
+.work-experience {
+    margin-bottom: 30px;
+}
+
+.work-experience h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.work-experience .job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 18px;
+}
+
+/* Education section */
+.education {
+    margin-bottom: 30px;
+}
+
+.education h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.education .degree {
+    margin-bottom: 20px;
+}
+
+.degree h3 {
+    font-size: 18px;
+}
+
+/* Skills section */
+.skills {
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
 
 /* Footer styles */
 footer {
@@ -44,24 +119,3 @@ footer {
     margin-top: 20px;
     color: #666;
 }
-
-img {
-    border-radius:50%;
-    padding:10px;
-}
-
-
-.banner li {
-    text-decoration:none;
-    display:inline-block;
-    padding: 10px;
-}
-
-banner {
-    
-}
-
-nav {
-    text-align: center;
-}
-
