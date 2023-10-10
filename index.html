@@ -4,51 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet"  type="text/css" href="css/styles.css"/>
 </head>
 <body>
-    <header>
-        <img src="images/ran.jpg" alt="ran">
-        <h1>Rannel John Catolpos</h1>
-        <p>Web Developer/Graphic Designer</p>
-    </header>
+   
 
     <div class="container">
-        <div class="personal-info">
+        <header id="home">
+            <img class="img-responsive" src="images/ran.jpg" alt="ran">
+            <h1>Rannel John Catolpos</h1>
+            <p>Web Developer/Graphic Designer</p>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="btn btn-primary" href="#personal">Personal</a></li>
+                        <li><a class="btn btn-success" href="#educ">Education</a></li>
+                        <li><a class="btn btn-warning" href="#expe">Experience</a></li>
+                        <li><a class="btn btn-info" href="#training">Trainings</a></li>
+                        <li><a class="btn btn-danger" href="#skills">Skills</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="personal" class="personal-info">
             <h2>Personal Information</h2>
+            <p>Fullname: Rannel John Decamotan Catolpos</p>
             <p>Date of Birth: October 31, 1991</p>
+            <p>Civil Status: Married</p>
+            <p>Spouse: Astred Jill Agravante-Catolpos</p>
             <p>Email: catolposran@gmail.com</p>
             <p>Contact #: 09353764464</p>
         </div>
 
-        <div class="work-experience">
+        <div id="educ" class="education">
+            <h2>Educational Attainments</h2>
+            <div class="degree">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>Bukidnon State University - Year graduated - 2013</p>
+            </div> 
+        </div>
+
+        <div id="expe" class="work-experience">
             <h2>Work Experience</h2>
             <div class="job">
-                <h3>Front-end Developer</h3>
-                <p>Baizetech Solutions - 2013 to 2015</p>
+                <ul>
+                    <li>
+                        <h3>Website Manager<p>LGU-Valencia, Bukidnon - 2015 to present</p></h3>
+                        
+                    </li>
+                    <li>
+                        <h3>Front-end Developer <p>Baizetech Solutions - 2013 to 2015</p></h3>
+                        
+                    </li>
+                </ul>
             </div>
            
         </div>
 
-        <div class="education">
-            <h2>Education</h2>
-            <div class="degree">
-                <h3>Bachelor of Science in Information Technology</h3>
-                <p>Bukidnon State University - Year graduated - 2013</p>
-            </div>
-            
+        <div id="training" class="trainings">
+            <h2>Trainings/Workshop Attended</h2>
+            <ul>
+                <li>Data Management Fundamentals - DAP Sparta</li>
+                <li>Essential Excel Skills for Data Prepartion and Analysis - DAP Sparta</li>
+                <li>Getting Grounded on Analytics - DAP Sparta</li>
+                <li>Web Accessibility Audit Training</li>
+                <li>Training on Kobo Toolbox and Power BI Software Application</li>
+                <li>Structured cabling and wireless communications technology</li>
+                <li>Philippine International Cybersecurity Conference 2018</li>
+                <li>Computer Hardware Installation and Repair Course</li>
+                <li>Mikrotik Certified Network Associate</li>
+                <li>Premium Line Cabling Seminar and Training Program</li>
+                <li>Wayok Creative Workshop</li>  
+                <li>eGovernment Project Managment</li>            
+            </ul>  
         </div>
 
-        <div class="skills">
+        <div id="skills" class="skills">
             <h2>Skills</h2>
             <ul>
                 <li>Web Development</li>
+                <li>CMS - Wordpress</li>
                 <li>Content Creation</li>
-                <li>Graphics Designing</li>
-                
+                <li>Graphics Designing</li> 
+                <li>Hardware Troubleshooting and Repair</li> 
             </ul>
         </div>
+        <a class="btn btn-dark" href="#home">Back to Top</a>
     </div>
+
 
     <footer>
         &copy; 2023 Ran Catolpos
