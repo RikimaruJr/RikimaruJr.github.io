@@ -30,7 +30,7 @@ header p {
 }
 
 header img {
-    width:200px;
+    width:20%;
     border-radius:50%;
 }
 
@@ -131,7 +131,7 @@ footer {
     margin-top: 20px;
     color: #666;
 }
-
+/*
 nav li {
     list-style-type:none;
     display:inline;
